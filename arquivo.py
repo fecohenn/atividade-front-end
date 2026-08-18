@@ -9,7 +9,7 @@ media_masculino = 0
 media = 0
 maior = 0
 menor = 0
-for i in range(5):
+for i in range(15):
     altura.append(float(input("Digite sua altura: ")))
     genero.append(int(input("Digite seu gênero (1 para masculino, 2 para feminino): ")))
     if genero[i] == 2:
